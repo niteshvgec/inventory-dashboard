@@ -8,7 +8,7 @@ import Header from "@/app/(components)/Header";
 import Rating from "@/app/(components)/Rating";
 // import CreateProductModal from "./CreateProductModal";
 import CreateProductsModal from "./CreateProductsModal";
-import Image from "next/image";
+// import Image from "next/image";
 
 type ProductFormData = {
   name: string;

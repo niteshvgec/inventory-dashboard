@@ -1,5 +1,4 @@
 "use client"
-import React, { useEffect } from 'react'
 import Navbar from './(components)/Navbar';
 import Sidebar from './(components)/Sidebar';
 import StoreProvider from './redux';
@@ -12,7 +11,7 @@ import { useAppSelector } from './redux';
 const DashboardLayout = ({children}:{children:React.ReactNode}) => {
 
     const isSidebarCollapsed=useAppSelector((state)=>state.global.isSidebarCollapsed);
-const isDarkMode=useAppSelector((state)=>state.global.isDarkMode);
+// const isDarkMode=useAppSelector((state)=>state.global.isDarkMode);
 
 // useEffect(()=>{
 //     if(isDarkMode){

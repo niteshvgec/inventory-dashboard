@@ -5,7 +5,6 @@ import { useAppDispatch, useAppSelector } from "@/app/redux";
 import { setIsDarkMode } from "@/app/state";
 import { setIsSidebarCollapsed } from "@/app/state";
 import { Bell, Menu, Moon, Settings, Sun } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
